@@ -1,4 +1,4 @@
-package br.com.factoryPattern;
+package patterns;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -6,10 +6,10 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Scanner;
 
-import br.com.estruturaDados.sort.BubbleSort;
-import br.com.estruturaDados.sort.InsertionSort;
-import br.com.estruturaDados.sort.QuickSort;
-import br.com.estruturaDados.sort.SelectionSort;
+import methods.BubbleSort;
+import methods.InsertionSort;
+import methods.QuickSort;
+import methods.SelectionSort;
 
 public class ReadFactory {
 	public String[] read(String path) {
@@ -88,10 +88,5 @@ public class ReadFactory {
 			break;
 
 		}
-		// System.out.println(Arrays.toString(bubble.time));
-
-		// String teste = "orderly1.txt";
-		// new ReadFactory().read(teste);
-
 	}
 }

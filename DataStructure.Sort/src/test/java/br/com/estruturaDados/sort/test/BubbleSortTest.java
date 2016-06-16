@@ -1,9 +1,9 @@
 package br.com.estruturaDados.sort.test;
 
+import methods.BubbleSort;
+
 import org.junit.Assert;
 import org.junit.Test;
-
-import br.com.estruturaDados.sort.BubbleSort;
 
 public class BubbleSortTest {
 

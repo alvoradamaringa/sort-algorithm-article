@@ -1,8 +1,8 @@
-package br.com.estruturaDados.sort;
+package methods;
 
 import java.util.Random;
 
-import br.com.factoryPattern.WriteFactory;
+import patterns.WriteFactory;
 
 public class Create{
 	
@@ -69,7 +69,7 @@ public class Create{
 	
 	public static void main(String[] args) {
        WriteFactory write = new WriteFactory();
-       write.collection(10);
+//       write.collection(10);
        System.out.println("foi");
 	}
 }

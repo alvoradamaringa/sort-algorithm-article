@@ -1,11 +1,11 @@
-package br.com.factoryPattern;
+package patterns;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-import br.com.estruturaDados.sort.Create;
+import methods.Create;
 
 public class WriteFactory extends Create {
 	FileWriter file;
@@ -21,7 +21,7 @@ public class WriteFactory extends Create {
 //		}
 //
 //	}
-	public void transform(long[] value) {
+	public void transform(double[] value) {
 		String[] convert = new String[value.length];
 		for (int i = 0; i < value.length; i++) {
 			convert[i] = String.valueOf(value[i]);
@@ -35,7 +35,6 @@ public class WriteFactory extends Create {
 		System.out.println("informe o nome do arquivo deseja gerar");
 		String name = scanner.next();
 		try {
-//			file = new FileWriter("orderly"+value+".txt");
 			file = new FileWriter(name+".txt");
 			buf = new BufferedWriter(file);
 			for (int i = 0; i < collection.length; i++) {

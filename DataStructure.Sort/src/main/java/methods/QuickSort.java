@@ -1,9 +1,9 @@
-package br.com.estruturaDados.sort;
+package methods;
 
 import java.util.Arrays;
 
-import br.com.factoryPattern.Factory;
-import br.com.factoryPattern.WriteFactory;
+import patterns.Factory;
+import patterns.WriteFactory;
 
 public class QuickSort implements Factory {
 	public long[]time = new long[6];

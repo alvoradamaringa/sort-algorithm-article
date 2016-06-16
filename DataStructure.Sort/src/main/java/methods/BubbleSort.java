@@ -1,17 +1,17 @@
-package br.com.estruturaDados.sort;
+package methods;
 
 import java.util.Arrays;
 
-import br.com.factoryPattern.Factory;
-import br.com.factoryPattern.WriteFactory;
+import patterns.Factory;
+import patterns.WriteFactory;
 
 public class BubbleSort implements Factory {
-	public long[]time = new long[5];
+	public double[]time = new double[5];
 	int cont=0;
 
 	public int[] structure(int[] value) {
 		int aux;
-		long start_time = System.currentTimeMillis();
+		double start_time = System.nanoTime();
 		for (int i = value.length - 1; i >= 1; i--) {
 			for (int j = 0; j < i; j++) {
 				if (value[j] > value[j + 1]) {
@@ -21,9 +21,9 @@ public class BubbleSort implements Factory {
 				}
 			}
 		}
-		long end_time = System.currentTimeMillis();
+		double end_time = System.nanoTime();
 
-		long difference = end_time-start_time;
+		double difference = end_time-start_time /1000000;
 		
 		time[cont]=difference;
 		cont++;
