@@ -11,7 +11,7 @@ public class BubbleSort implements Factory {
 
 	public int[] structure(int[] value) {
 		int aux;
-		double start_time = System.nanoTime();
+		double start= System.nanoTime();
 		for (int i = value.length - 1; i >= 1; i--) {
 			for (int j = 0; j < i; j++) {
 				if (value[j] > value[j + 1]) {
@@ -21,9 +21,9 @@ public class BubbleSort implements Factory {
 				}
 			}
 		}
-		double end_time = System.nanoTime();
+		
 
-		double difference = end_time-start_time /1000000;
+		double difference = (System.nanoTime() -start) /1000000;
 		
 		time[cont]=difference;
 		cont++;
@@ -32,8 +32,10 @@ public class BubbleSort implements Factory {
 		System.out.println(Arrays.toString(time) +" atual tempo");
 		return value;
 	}
+	
 	public void write(){
 		WriteFactory write = new WriteFactory();
 		write.transform(time);
 	}
+	
 }

@@ -12,6 +12,7 @@ import methods.QuickSort;
 import methods.SelectionSort;
 
 public class ReadFactory {
+	
 	public String[] read(String path) {
 		String[] group = null;
 		try {
