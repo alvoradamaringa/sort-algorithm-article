@@ -5,30 +5,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-import methods.Create;
 
-public class WriteFactory extends Create {
+public class WriteFactory{
 	FileWriter file;
 	BufferedWriter buf;
 	int value = 0;
-
-	// public void collection(int size) {
-	// while (size <= 1000000) {
-	// int[] sequence = orderly(size);
-	// transform(sequence);
-	// size = size * 10;
-	//
-	// }
-	//
-	// }
-//	public void transform(String[] value) {
-//		String[] convert = new String[value.length];
-//		for (int i = 0; i < value.length; i++) {
-//			convert[i] = String.valueOf(value[i]);
-//		}
-//		this.value = this.value + 1;
-//		write(convert);
-//	}
 
 	public void write(String[] collection) {
 		Scanner scanner = new Scanner(System.in);
