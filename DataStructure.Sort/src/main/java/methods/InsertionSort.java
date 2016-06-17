@@ -6,14 +6,15 @@ import patterns.Factory;
 import patterns.WriteFactory;
 
 public class InsertionSort implements Factory {
-	public long[]time = new long[6];
+	public String[]time = new String[5];
 	int cont=0;
 
 	public int[] structure(int[] value) {
 		int i;
 		int j;
 		int eleito;
-		long start_time = System.currentTimeMillis();
+		
+		double start= System.nanoTime();
 		for (i = 0; i < value.length; i++) {
 			eleito = value[i];
 			for (j = i;(j>0)&&(value[j-1]>eleito);j--) {
@@ -21,11 +22,11 @@ public class InsertionSort implements Factory {
 			}
 			value[j]= eleito;
 		}
-		long end_time = System.currentTimeMillis();
-
-		long difference = end_time-start_time;
 		
-		time[cont]=difference;
+
+		double difference = (System.nanoTime() - start)/1000000;
+		String resultado = String.format("%.5f", difference);
+		time[cont]=resultado;
 		cont++;
 		System.out.println("tempo de execução"+difference);
 		System.out.println(cont +"cont");
@@ -34,7 +35,7 @@ public class InsertionSort implements Factory {
 	}
 	public void write(){
 		WriteFactory write = new WriteFactory();
-		write.transform(time);
+		write.write(time);
 	}
 
 }

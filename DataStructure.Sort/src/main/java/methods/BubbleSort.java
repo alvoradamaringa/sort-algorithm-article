@@ -6,7 +6,7 @@ import patterns.Factory;
 import patterns.WriteFactory;
 
 public class BubbleSort implements Factory {
-	public double[]time = new double[5];
+	public String[]time = new String[5];
 	int cont=0;
 
 	public int[] structure(int[] value) {
@@ -23,9 +23,11 @@ public class BubbleSort implements Factory {
 		}
 		
 
-		double difference = (System.nanoTime() -start) /1000000;
+		double difference = (System.nanoTime() -start) /1000000000;
 		
-		time[cont]=difference;
+		String resultado = String.format("%.5f", difference);
+		
+		time[cont]=resultado;
 		cont++;
 		System.out.println("tempo de execução"+difference);
 		System.out.println(cont +"cont");
@@ -35,7 +37,7 @@ public class BubbleSort implements Factory {
 	
 	public void write(){
 		WriteFactory write = new WriteFactory();
-		write.transform(time);
+		write.write(time);
 	}
 	
 }

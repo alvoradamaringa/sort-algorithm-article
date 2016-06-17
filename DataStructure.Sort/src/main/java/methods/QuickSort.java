@@ -6,17 +6,17 @@ import patterns.Factory;
 import patterns.WriteFactory;
 
 public class QuickSort implements Factory {
-	public long[]time = new long[6];
+	public String[]time = new String[5];
 	int cont=0;
 
 	public int[] structure(int[] value) {
-		long start_time = System.currentTimeMillis();
+		long start = System.nanoTime();
 		new QuickSort().ordenar(value, 0, value.length - 1);
-		long end_time = System.currentTimeMillis();
-
-		long difference = end_time-start_time;
 		
-		time[cont]=difference;
+
+		double difference = (System.nanoTime() - start)/1000000;
+		String resultado = String.format("%.5f", difference);
+		time[cont]=resultado;
 		cont++;
 		System.out.println("tempo de execução"+difference);
 		System.out.println(cont +"cont");
@@ -56,7 +56,7 @@ public class QuickSort implements Factory {
 	
 	public void write(){
 		WriteFactory write = new WriteFactory();
-		write.transform(time);
+		write.write(time);
 	}
 
 }

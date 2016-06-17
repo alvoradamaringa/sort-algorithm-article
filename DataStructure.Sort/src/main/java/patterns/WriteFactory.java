@@ -21,16 +21,16 @@ public class WriteFactory extends Create {
 	// }
 	//
 	// }
-	public void transform(double[] value) {
-		String[] convert = new String[value.length];
-		for (int i = 0; i < value.length; i++) {
-			convert[i] = String.valueOf(value[i]);
-		}
-		this.value = this.value + 1;
-		write(convert, this.value);
-	}
+//	public void transform(String[] value) {
+//		String[] convert = new String[value.length];
+//		for (int i = 0; i < value.length; i++) {
+//			convert[i] = String.valueOf(value[i]);
+//		}
+//		this.value = this.value + 1;
+//		write(convert);
+//	}
 
-	public void write(String[] collection, int value) {
+	public void write(String[] collection) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("informe o nome do arquivo deseja gerar");
 		String name = scanner.next();
