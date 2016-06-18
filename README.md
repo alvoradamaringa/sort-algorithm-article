@@ -41,39 +41,39 @@
 		<tbody>
 			<tr>
 				<td>Bubble Sort</td>
-				<td>0</td>
-				<td>0</td>
-				<td>19</td>
-				<td>47</td>
-				<td>3745</td>
-				<td>Ms</td>
+				<td>0,000001</td>
+				<td>0,00012</td>
+				<td>0,00612</td>
+				<td>0,00612</td>
+				<td>4,12629</td>
+				<td>s</td>
 			</tr>
 			<tr>
 				<td>Select Sort</td>
-				<td>0</td>
-				<td>0</td>
-				<td>7</td>
-				<td>26</td>
-				<td>2368</td>
-				<td>Ms</td>
+				<td>0,00302</td>
+				<td>0,12920</td>
+				<td>6,93254</td>
+				<td>47,40001</td>
+				<td>2635,21014</td>
+				<td>s</td>
 			</tr>
 			<tr>
 				<td>Insert Sort</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>7</td>
-				<td>Ms</td>
+				<td>0,00121</td>
+				<td>0,00604</td>
+				<td>0,06279</td>
+				<td>0,67738</td>
+				<td>6,28535</td>
+				<td>s</td>
 			</tr>
 			<tr>
 				<td>Quick Sort</td>
-				<td>0</td>
-				<td>0</td>
-				<td>4</td>
-				<td>78</td>
-				<td>-</td>
-				<td>Ms</td>
+				<td>0,000001</td>
+				<td>0,000001</td>
+				<td>5,00000</td>
+				<td>90,00000</td>
+				<td>"Estouro de memória"</td>
+				<td>s</td>
 			</tr>
 		</tbody>
 	</table>
@@ -92,39 +92,39 @@
 		<tbody>
 			<tr>
 				<td>Bubble Sort</td>
-				<td>0</td>
-				<td>0</td>
-				<td>9</td>
-				<td>161</td>
-				<td>23318</td>
-				<td>Ms</td>
+				<td>0,000001</td>
+				<td>0,00025</td>
+				<td>0,01104</td>
+				<td>0,14632</td>
+				<td>24,96530</td>
+				<td>s</td>
 			</tr>
 			<tr>
 				<td>Select Sort</td>
-				<td>0</td>
-				<td>0</td>
-				<td>6</td>
-				<td>63</td>
-				<td>5267</td>
-				<td>Ms</td>
+				<td>0,00362</td>
+				<td>0,13704</td>
+				<td>7,70047</td>
+				<td>65,49355</td>
+				<td>5344,26452</td>
+				<td>s</td>
 			</tr>
 			<tr>
 				<td>Insert Sort</td>
-				<td>0</td>
-				<td>0</td>
-				<td>5</td>
-				<td>84</td>
-				<td>1218</td>
-				<td>Ms</td>
+				<td>0,00181</td>
+				<td>0,08875</td>
+				<td>5,51379</td>
+				<td>97,40267</td>
+				<td>1793,59958</td>
+				<td>s</td>
 			</tr>
 			<tr>
 				<td>Quick Sort</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>3</td>
-				<td>15</td>
-				<td>Ms</td>
+				<td>0,000001</td>
+				<td>0,000001</td>
+				<td>0,000001</td>
+				<td>2,00000</td>
+				<td>18,00000</td>
+				<td>s</td>
 			</tr>
 		</tbody>
 	</table>
@@ -143,39 +143,39 @@
 		<tbody>
 			<tr>
 				<td>Bubble Sort</td>
-				<td>0</td>
-				<td>1</td>
-				<td>12</td>
-				<td>68</td>
-				<td>10284</td>
-				<td>Ms</td>
+				<td>0,000001</td>
+				<td>0,00036</td>
+				<td>0,01296</td>
+				<td>0,05177</td>
+				<td>10,23093</td>
+				<td>s</td>
 			</tr>
 			<tr>
 				<td>Select Sort</td>
-				<td>0</td>
-				<td>1</td>
-				<td>5</td>
-				<td>93</td>
-				<td>5524</td>
-				<td>Ms</td>
+				<td>0,00362</td>
+				<td>0,13403</td>
+				<td>7,79767</td>
+				<td>192,25401</td>
+				<td>5557,18514</td>
+				<td>s</td>
 			</tr>
 			<tr>
 				<td>Insert Sort</td>
-				<td>0</td>
-				<td>1</td>
-				<td>6</td>
-				<td>109</td>
-				<td>2704</td>
-				<td>Ms</td>
+				<td>0,00362</td>
+				<td>0,21976</td>
+				<td>9,17899</td>
+				<td>155,63103</td>
+				<td>4017,62324</td>
+				<td>s</td>
 			</tr>
 			<tr>
 				<td>Quick Sort</td>
-				<td>0</td>
-				<td>0</td>
-				<td>4</td>
-				<td>99</td>
-				<td>-</td>
-				<td>Ms</td>
+				<td>0,000001</td>
+				<td>0,000001</td>
+				<td>4,00000</td>
+				<td>98,00000</td>
+				<td>"Estouro de memória</td>
+				<td>s</td>
 			</tr>
 		</tbody>
 	</table>
@@ -194,39 +194,39 @@
 		<tbody>
 			<tr>
 				<td>Bubble Sort</td>
-				<td>0</td>
-				<td>0</td>
-				<td>10</td>
-				<td>138</td>
-				<td>4854</td>
-				<td>Ms</td>
+				<td>0,000001</td>
+				<td>0,00019</td>
+				<td>0,00791</td>
+				<td>0,14407</td>
+				<td>6,09551</td>
+				<td>s</td>
 			</tr>
 			<tr>
 				<td>Select Sort</td>
-				<td>0</td>
-				<td>0</td>
-				<td>8</td>
-				<td>71</td>
-				<td>5290</td>
-				<td>Ms</td>
+				<td>0,00362</td>
+				<td>0,12799</td>
+				<td>9,49232</td>
+				<td>797,27709</td>
+				<td>5299,86682</td>
+				<td>s</td>
 			</tr>
 			<tr>
 				<td>Insert Sort</td>
-				<td>0</td>
-				<td>0</td>
-				<td>2</td>
-				<td>24</td>
-				<td>953</td>
-				<td>Ms</td>
+				<td>0,00121</td>
+				<td>0,01630</td>
+				<td>1,69706</td>
+				<td>24,65841</td>
+				<td>1100,33495</td>
+				<td>s</td>
 			</tr>
 			<tr>
 				<td>Quick Sort</td>
-				<td>0</td>
-				<td>0</td>
-				<td>1</td>
-				<td>5</td>
-				<td>21</td>
-				<td>Ms</td>
+				<td>0,000001</td>
+				<td>0,000001</td>
+				<td>1,00000</td>
+				<td>6,00000</td>
+				<td>22,00000</td>
+				<td>s</td>
 			</tr>
 		</tbody>
 	</table>
@@ -245,43 +245,45 @@
 		<tbody>
 			<tr>
 				<td>Bubble Sort</td>
-				<td>0</td>
-				<td>0</td>
-				<td>8</td>
-				<td>43</td>
-				<td>6927</td>
-				<td>Ms</td>
+				<td>0,000001</td>
+				<td>0,00016</td>
+				<td>0,00911</td>
+				<td>0,07533</td>
+				<td>9,60795</td>
+				<td>s</td>
 			</tr>
 			<tr>
 				<td>Select Sort</td>
-				<td>0</td>
-				<td>1</td>
-				<td>8</td>
-				<td>63</td>
-				<td>5258</td>
-				<td>Ms</td>
+				<td>0,00362</td>
+				<td>0,18172</td>
+				<td>9,29068</td>
+				<td>66,00491</td>
+				<td>5462,92424</td>
+				<td>s</td>
 			</tr>
 			<tr>
 				<td>Insert Sort</td>
-				<td>0</td>
-				<td>1</td>
-				<td>2</td>
-				<td>23</td>
-				<td>971</td>
-				<td>Ms</td>
+				<td>0,00181</td>
+				<td>0,02173,1</td>
+				<td>60530</td>
+				<td>22,21877</td>
+				<td>940,62215</td>
+				<td>s</td>
 			</tr>
 			<tr>
 				<td>Quick Sort</td>
-				<td>0</td>
-				<td>0</td>
-				<td>2</td>
-				<td>13</td>
-				<td>47</td>
-				<td>Ms</td>
+				<td>0,000001</td>
+				<td>0,000001</td>
+				<td>1,00000</td>
+				<td>7,00000</td>
+				<td>44,00000</td>
+				<td>s</td>
 			</tr>
 		</tbody>
 	</table>
-	<p><i><strong>Observações:</strong>significado <strong>-</strong>: Estouro de memória do computador (não conseguiu calcular)</i></p>
+	<p><i><strong>Observações:</strong>significado <strong>Estouro de memória </strong>: (não conseguiu calcular)</i>
+	<p>Todos os calculos são feitos em segundos e com 5 casas decimais após a vircula, número acima de 5 casas, significa que estão abaixo de segundos para executar</p>
+	</p>
 
 </body>
 </html>
