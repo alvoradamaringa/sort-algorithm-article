@@ -6,7 +6,7 @@ import patterns.Factory;
 import patterns.WriteFactory;
 
 public class QuickSort implements Factory {
-	public String[]time = new String[5];
+	public String[]time = new String[4];
 	int cont=0;
 
 	public int[] structure(int[] value) {
