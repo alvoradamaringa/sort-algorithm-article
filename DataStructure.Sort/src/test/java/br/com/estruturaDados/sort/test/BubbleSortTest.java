@@ -1,6 +1,6 @@
 package br.com.estruturaDados.sort.test;
 
-import methods.BubbleSort;
+import methods.BubbleSortFactory;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -10,7 +10,7 @@ public class BubbleSortTest {
 	@Test
 	public void test() {
 		long millis = System.currentTimeMillis();
-		BubbleSort bubble = new BubbleSort();
+		BubbleSortFactory bubble = new BubbleSortFactory();
 		int[] a = {1,2,3,4,5,6,7,8,9,10};
 		int[] b = bubble.orderly(a);
 		int[] expected = {1,2,3,4,5,6,7,8,9,10};
